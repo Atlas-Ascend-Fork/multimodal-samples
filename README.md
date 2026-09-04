@@ -28,3 +28,23 @@ multimodal-samples/
 │   │   ├── large_model/
 │   │   └── checkpoints/
 │   └── software_engineering/      
+
+## 贡献指南
+
+欢迎参与贡献，请参阅 [CONTRIBUTING.md](CONTRIBUTING.md) 了解贡献流程与规范。
+
+## 安全声明
+
+请参阅 [SECURITY.md](SECURITY.md) 了解安全相关信息。
+
+## 许可证
+
+本项目采用 [CANN Open Software License Agreement Version 2.0](LICENSE) 许可证。
+
+## 所属 SIG
+
+本仓库隶属于 CANN 社区 [multimodal-ai SIG](https://gitcode.com/cann/community/blob/master/CANN/sigs/multimodal-ai/README.md)。
+
+## 问题反馈
+
+如有问题或建议，请通过 [Issue](../../issues) 提交反馈。
