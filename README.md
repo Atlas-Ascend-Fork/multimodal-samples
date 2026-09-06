@@ -1,10 +1,15 @@
 # multimodal-samples
 
-# multimodal-samples
-
 > CANN Multimodal-AI SIG — 模型层仓库
 
 多模态 AI 模型集合，按应用场景组织，提供端到端的模型定义、训练配置、推理示例与昇腾 NPU 适配。覆盖自动驾驶、AIGC 和软件工程三大多模态场景。
+
+## 源码下载
+
+```bash
+git clone https://gitcode.com/cann/multimodal-samples.git
+cd multimodal-samples
+```
 
 ## 场景分类
 
@@ -27,4 +32,35 @@ multimodal-samples/
 │   │   ├── backbone/
 │   │   ├── large_model/
 │   │   └── checkpoints/
-│   └── software_engineering/      
+│   └── software_engineering/       #   软件工程（代码 · 文档 · 界面 · 日志）
+│       ├── backbone/
+│       ├── large_model/
+│       └── checkpoints/
+├── configs/                        # 训练 / 推理配置文件
+├── datasets/                       # 数据集索引与预处理脚本
+├── tools/                          # 通用工具（可视化、格式转换等）
+├── examples/                       # 端到端推理示例
+├── adapters/
+│   └── cann/                       # 昇腾 NPU 适配层（调用 multimodal-ops 算子）
+└── model-index.yml                 # 全局模型索引（名称、场景、精度、权重链接）
+```
+
+## 贡献指南
+
+欢迎参与贡献，请参阅 [CONTRIBUTING.md](CONTRIBUTING.md) 了解贡献流程与规范。
+
+## 安全声明
+
+请参阅 [SECURITY.md](SECURITY.md) 了解安全相关信息。
+
+## 许可证
+
+本项目采用 [CANN Open Software License Agreement Version 2.0](LICENSE) 许可证。
+
+## 所属 SIG
+
+本仓库隶属于 CANN 社区 [multimodal-ai SIG](https://gitcode.com/cann/community/blob/master/CANN/sigs/multimodal-ai/README.md)。
+
+## 问题反馈
+
+如有问题或建议，请通过 [Issue](../../issues) 提交反馈。
