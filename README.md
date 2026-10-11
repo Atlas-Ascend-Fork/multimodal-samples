@@ -2,7 +2,7 @@
 
 > CANN Multimodal-AI SIG — 模型层仓库
 
-多模态 AI 模型集合，按应用场景组织，提供预训练权重、模型定义、训练配置与昇腾 NPU 适配。当前已收录自动驾驶场景的多传感器融合模型，AIGC 和软件工程场景待社区共建。
+多模态 AI 模型集合，按应用场景组织。当前提供自动驾驶场景的多传感器融合模型预训练权重，模型定义、训练配置与昇腾 NPU 适配待社区共建。AIGC 和软件工程场景待社区共建。
 
 ## 源码下载
 
@@ -17,16 +17,16 @@ cd multimodal-samples
 
 ### 自动驾驶（多传感器融合）
 
-| 模型 | 权重文件 | 说明 |
-|------|----------|------|
-| BEVFusion | `bevfusion_kitti_fusion_latest.pth` | Camera + LiDAR 融合的 BEV 3D 检测 |
-| CLOCs | `clocs_fusion_trained.pth` | Camera-LiDAR 后融合目标检测 |
-| EPNet | `epnet_fusion_refine_best.pth` | 点云 + 图像端到端融合检测 |
-| EPNet++ | `epnetpp_residual_car_v5_best.pth` | EPNet 改进版，残差融合 |
-| FarAway | `faraway_gate40_epoch1_best.pth` | 远距离目标融合检测 |
-| HMFI | `hmfi_fusion_trained_best.pth` | 层次化多模态融合推理 |
-| LOGONet | `logonet_fusion_trained_best_loss.pth` | 局部-全局融合网络 |
-| PointPainting | `pointpainting_kitti_car_best_ap.pth` | 语义分割投影到点云的融合检测 |
+| 模型 | 权重文件 | 说明 | 来源 |
+|------|----------|------|------|
+| BEVFusion | `bevfusion_kitti_fusion_latest.pth` | Camera + LiDAR 融合的 BEV 3D 检测 | 论文复现 |
+| CLOCs | `clocs_fusion_trained.pth` | Camera-LiDAR 后融合目标检测 | 论文复现 |
+| EPNet | `epnet_fusion_refine_best.pth` | 点云 + 图像端到端融合检测 | 论文复现 |
+| EPNet++ | `epnetpp_residual_car_v5_best.pth` | EPNet 改进版，残差融合 | 论文复现 |
+| FarAway | `faraway_gate40_epoch1_best.pth` | 远距离目标融合检测 | 论文复现 |
+| HMFI | `hmfi_fusion_trained_best.pth` | 层次化多模态融合推理 | 论文复现 |
+| LOGONet | `logonet_fusion_trained_best_loss.pth` | 局部-全局融合网络 | 论文复现 |
+| PointPainting | `pointpainting_kitti_car_best_ap.pth` | 语义分割投影到点云的融合检测 | 论文复现 |
 
 权重文件位于 `models/autonomous_driving/checkpoints/`，通过 Git LFS 存储。
 
@@ -37,6 +37,16 @@ cd multimodal-samples
 | **自动驾驶** | `models/autonomous_driving/` | ✅ 已有 8 个模型权重 | 多传感器融合的 3D 感知模型 |
 | AIGC | `models/aigc/` | 待共建 | 多模态联合生成与条件控制模型 |
 | 软件工程 | `models/software_engineering/` | 待共建 | 代码、文档、界面等多模态理解与生成模型 |
+
+## 版本配套
+
+| 项目 | 版本 |
+|------|------|
+| 产品型号 | Atlas 800I A2 |
+| NPU 芯片 | Ascend 950 |
+| 训练环境 CANN 版本 | 9.1.0 |
+| PyTorch | 2.7.1 |
+| Python | 3.12.3 |
 
 ## 目录结构
 
