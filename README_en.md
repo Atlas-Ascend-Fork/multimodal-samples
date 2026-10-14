@@ -42,7 +42,7 @@ Weight files are located in `models/autonomous_driving/checkpoints/` and stored 
 
 | Item | Version |
 |------|---------|
-| Product Model | Atlas 800I A2 |
+| Product Model | Ascend950PR |
 | NPU Chip | Ascend 950 |
 | Training Environment CANN Version | 9.1.0 |
 | PyTorch | 2.7.1 |

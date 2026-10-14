@@ -42,7 +42,7 @@ cd multimodal-samples
 
 | 项目 | 版本 |
 |------|------|
-| 产品型号 | Atlas 800I A2 |
+| 产品型号 | Ascend950PR |
 | NPU 芯片 | Ascend 950 |
 | 训练环境 CANN 版本 | 9.1.0 |
 | PyTorch | 2.7.1 |
