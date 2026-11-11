@@ -81,4 +81,4 @@ This repository belongs to the CANN community [multimodal-ai SIG](https://gitcod
 
 ## Feedback
 
-If you have questions or suggestions, please submit feedback via [Issue](../../issues).
+If you have questions or suggestions, please submit feedback via [Issue](https://gitcode.com/cann/multimodal-samples/issues).
