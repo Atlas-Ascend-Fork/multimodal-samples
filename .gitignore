@@ -27,7 +27,6 @@ Thumbs.db
 
 # Data / weights (large files)
 *.pt
-*.pth
 *.onnx
 *.bin
 *.safetensors
